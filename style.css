@@ -1,0 +1,77 @@
+* { 
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono","iomanoid";
+}
+@font-face {
+  font-family: "iomanoid";
+  src: url(iomanoid.ttf);
+}
+body {
+  background: #e76f51;
+}
+h1 {
+  font-family: "iomanoid";
+  font-size: 7em;
+  text-align: center;
+  color: #e76f51;
+}
+.general-cont {
+  margin: 0 auto;
+  width: 1300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #023047;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #219ebc;
+  height: 420px;
+  width: 1200px;
+  border: 5px solid #e76f51;
+}
+canvas {
+  background: #8ecae6;
+  outline: 5px solid #023047;
+}
+.app-info {
+  background: #023047;
+  height: 320px;
+  width: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  outline: 5px solid #e76f51;
+  font-family: "Roboto Mono";
+}
+
+.stats-info {
+  background: #023047;
+  height: 320px;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  outline: 5px solid #e76f51;
+  font-family: "Roboto Mono";
+}
+
+
+
+
+span {
+  border-radius: 3px;
+  padding: 3px 7px;
+  color: #fb8500;
+}
+.valor {
+  color: #219ebc;
+  margin: 0 -3px;
+}
